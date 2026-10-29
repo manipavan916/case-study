@@ -6,7 +6,7 @@ StudyPilot turns study materials into revision notes, quizzes, flashcards, and A
 
 ## Requirements
 
-- Node.js 20 or newer
+- Node.js 22 or newer
 - A Gemini API key for AI features
 
 ## Set up

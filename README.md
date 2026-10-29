@@ -2,6 +2,8 @@
 
 StudyPilot turns study materials into revision notes, quizzes, flashcards, and AI tutor answers. This Artificial Intelligence case study was created by Mani Pavan (24BCE2519).
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/manipavan916/case-study)
+
 ## Requirements
 
 - Node.js 20 or newer

@@ -866,7 +866,7 @@ async function extractStudyFile(file) {
   if (["txt", "md"].includes(extension)) {
     text = await file.text();
   } else if (extension === "docx") {
-    const mammoth = (await import("mammoth/mammoth.browser")).default;
+    const mammoth = (await import("mammoth")).default;
     const result = await mammoth.extractRawText({ arrayBuffer: await file.arrayBuffer() });
     text = result.value;
   } else if (extension === "pdf") {

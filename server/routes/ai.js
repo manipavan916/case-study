@@ -35,7 +35,7 @@ function providerErrorMessage(error, action) {
     return "Gemini rejected the API key. Check GEMINI_API_KEY in server/.env.";
   }
   if (status === 429) {
-    return "Gemini’s request limit has been reached. Wait a little and try again.";
+    return "Gemini’s shared project quota has been reached across devices (rate or daily limit). Check the project’s limits in Google AI Studio, then wait for the limit to reset or enable billing/request a higher quota.";
   }
   if (status === 503 || /high demand|temporarily unavailable/i.test(details)) {
     return "Gemini is temporarily busy. Please try again in a moment.";
